@@ -1,0 +1,375 @@
+.headersection {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  height: 869px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-image: url('../images/HeaderImageLarge.jpeg');
+  background-position: 50% 50%;
+  background-size: 1566px;
+  background-repeat: no-repeat;
+}
+
+.headerdiv {
+  display: block;
+  width: 100%;
+  margin-top: 383px;
+  line-height: 29px;
+}
+
+.headercontainer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.titleclass {
+  opacity: 1;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 52px;
+  line-height: 56px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 6px #260b35;
+}
+
+.dektext {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #2c0a3f;
+}
+
+.brandfuselogo {
+  display: block;
+  width: 250px;
+  height: 47px;
+  margin-top: 117px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  background-image: url('../images/BrandFuse-logo.png');
+  background-position: 50% 50%;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.sponsoredtext {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.introtext {
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.planningheader {
+  height: 637px;
+  margin-top: 98px;
+  background-image: url('../images/PlanningHeaderImageLarge.jpeg');
+  background-position: 50% 50%;
+  background-size: 2352px;
+  background-repeat: no-repeat;
+}
+
+.planningflagimage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sectiontitle {
+  display: block;
+  margin-top: 46px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 6px #260a29;
+}
+
+.planningcontainer {
+  padding: 100px 119px;
+}
+
+.imagespacing {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.surfingimage {
+  margin-top: 40px;
+}
+
+.catagorytexttitles {
+  display: block;
+  margin-top: 80px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.centeredtextblock {
+  margin: 61px 81px 56px;
+}
+
+.pinaimage {
+  display: block;
+  overflow: visible;
+  width: 771px;
+  max-width: 771px;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-top: 24px;
+  padding-right: 155px;
+  padding-left: 81px;
+}
+
+.samplerows {
+  height: auto;
+  margin-top: 50px;
+  padding-right: 10px;
+  padding-left: 81px;
+}
+
+.samplerows2 {
+  margin-top: 50px;
+  padding-right: 81px;
+  padding-left: 10px;
+}
+
+.sampleimage4 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.dancingimage {
+  margin-top: 67px;
+  margin-bottom: 67px;
+}
+
+.payingheader {
+  width: 100%;
+  height: 545px;
+  background-image: url('../images/PayingHeaderImageLarge.jpeg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.payingcontainer {
+  margin-top: 44px;
+  margin-bottom: 86px;
+  padding-right: 119px;
+  padding-left: 119px;
+}
+
+.packingsection {
+  width: 100%;
+  height: 574px;
+  background-image: url('../images/PayingHeaderImageLarger.jpeg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.packingcontainer {
+  padding-right: 119px;
+  padding-left: 119px;
+}
+
+.packingintrotext {
+  margin-top: 50px;
+  margin-bottom: 49px;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.rectangle {
+  display: block;
+  width: 771px;
+  margin: 30px auto;
+}
+
+.rectangle2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 31px auto 30px;
+  background-color: #000;
+}
+
+.iconrow1 {
+  margin-left: 29px;
+  padding-left: 27px;
+}
+
+.boots {
+  display: block;
+  width: 179px;
+  margin-right: 26px;
+  margin-left: 48px;
+}
+
+.textblockplanning {
+  margin-top: 107px;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+.iconimages {
+  margin-top: 13px;
+  margin-bottom: 9px;
+  padding-top: 0px;
+}
+
+@media (max-width: 991px) {
+  .dektext {
+    padding-right: 91px;
+    padding-left: 91px;
+  }
+  .introtext {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .planningcontainer {
+    padding: 0px;
+  }
+  .centeredtextblock {
+    margin-right: 80px;
+    margin-left: 81px;
+  }
+  .sampleimage4 {
+    margin-top: 49px;
+    margin-bottom: 119px;
+  }
+  .payingheader {
+    background-size: auto 100%;
+  }
+  .packingsection {
+    background-size: auto 100%;
+  }
+  .boots {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .headercontainer {
+    max-height: auto;
+  }
+  .centeredtextblock {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .pinaimage {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .iconimages {
+    margin-bottom: 29px;
+  }
+}
+
+@media (max-width: 479px) {
+  .headersection {
+    height: 666px;
+  }
+  .headerdiv {
+    margin-top: 6px;
+  }
+  .titleclass {
+    margin-top: 11px;
+  }
+  .dektext {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .brandfuselogo {
+    margin-top: 27px;
+  }
+  .introtext {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 12px;
+  }
+  .planningheader {
+    height: 391px;
+  }
+  .sectiontitle {
+    font-size: 45px;
+  }
+  .catagorytexttitles {
+    margin-right: 42px;
+    padding-left: 29px;
+    line-height: 52px;
+    text-align: center;
+  }
+  .centeredtextblock {
+    margin-right: 10px;
+    margin-bottom: 21px;
+    margin-left: 13px;
+  }
+  .samplerows {
+    padding-left: 12px;
+  }
+  .samplerows2 {
+    margin-top: -56px;
+    padding-right: 10px;
+  }
+  .payingheader {
+    height: 460px;
+    margin-top: 58px;
+  }
+  .payingcontainer {
+    margin-top: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .packingsection {
+    height: 428px;
+  }
+  .packingcontainer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .iconrow1 {
+    margin-left: 29px;
+    padding-left: 0px;
+  }
+  .boots.iconimages {
+    display: block;
+    margin-right: 52px;
+    margin-left: auto;
+    padding-left: 0px;
+  }
+  .textblockplanning {
+    margin-top: -19px;
+  }
+  .iconimages {
+    margin-left: 3px;
+    padding-left: 0px;
+  }
+  .column2icons {
+    padding-right: 17px;
+    padding-left: 0px;
+  }
+}
