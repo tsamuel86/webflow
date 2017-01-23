@@ -4,19 +4,21 @@
   top: 0px;
   right: 0px;
   z-index: 0;
-  height: 869px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
   margin-top: 0px;
   padding-top: 0px;
   background-image: url('../images/HeaderImageLarge.jpeg');
-  background-position: 50% 50%;
-  background-size: 1566px;
+  background-position: 50% 0px;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .headerdiv {
   display: block;
   width: 100%;
-  margin-top: 383px;
+  margin-top: 351px;
   line-height: 29px;
 }
 
@@ -26,6 +28,7 @@
 }
 
 .titleclass {
+  margin-top: 17px;
   opacity: 1;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
@@ -38,9 +41,12 @@
 }
 
 .dektext {
+  margin-top: 5px;
+  margin-bottom: 0px;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #fff;
   font-size: 18px;
+  line-height: 25px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 1px;
@@ -51,7 +57,7 @@
   display: block;
   width: 250px;
   height: 47px;
-  margin-top: 117px;
+  margin-top: 92px;
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
@@ -63,7 +69,8 @@
 }
 
 .sponsoredtext {
-  margin-top: 20px;
+  margin-top: 18px;
+  margin-bottom: 17px;
   color: #fff;
   text-align: center;
 }
@@ -227,7 +234,12 @@
 }
 
 .textblockplanning {
-  margin-top: 107px;
+  position: relative;
+  left: 0px;
+  top: 39px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 0px;
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
@@ -240,6 +252,20 @@
 }
 
 @media (max-width: 991px) {
+  .headersection {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: auto;
+    height: 102%;
+    background-size: auto;
+  }
+  .headerdiv {
+    margin-top: 251px;
+  }
+  .headercontainer {
+    height: 798px;
+  }
   .dektext {
     padding-right: 91px;
     padding-left: 91px;
@@ -325,7 +351,7 @@
   }
   .centeredtextblock {
     margin-right: 10px;
-    margin-bottom: 21px;
+    margin-bottom: 0px;
     margin-left: 13px;
   }
   .samplerows {
@@ -362,7 +388,7 @@
     padding-left: 0px;
   }
   .textblockplanning {
-    margin-top: -19px;
+	margin-top: 4px;
   }
   .iconimages {
     margin-left: 3px;
