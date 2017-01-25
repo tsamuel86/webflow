@@ -1,3 +1,15 @@
+figure {
+  margin-bottom: 35px;
+}
+
+figcaption {
+  margin-top: -26px;
+  margin-left: 13px;
+  color: #fff;
+  font-size: 11px;
+  text-align: left;
+}
+
 .headersection {
   position: relative;
   left: 0px;
@@ -9,16 +21,17 @@
   height: auto;
   margin-top: 0px;
   padding-top: 0px;
-  background-image: url('../images/HeaderImageLarge.jpeg');
-  background-position: 50% 0px;
-  background-size: 100%;
+  background-image: url('../images/Flamenco-Beach-Culebra-Island.jpg');
+  background-position: 50% 100%;
+  background-size: 1500px;
   background-repeat: no-repeat;
 }
 
 .headerdiv {
   display: block;
   width: 100%;
-  margin-top: 351px;
+  margin-top: 306px;
+  margin-bottom: 0px;
   line-height: 29px;
 }
 
@@ -28,7 +41,7 @@
 }
 
 .titleclass {
-  margin-top: 17px;
+  margin-top: 0px;
   opacity: 1;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
@@ -57,7 +70,7 @@
   display: block;
   width: 250px;
   height: 47px;
-  margin-top: 92px;
+  margin-top: 265px;
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
@@ -65,13 +78,14 @@
   background-position: 50% 50%;
   background-size: 85%;
   background-repeat: no-repeat;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .23);
   text-align: left;
 }
 
 .sponsoredtext {
   margin-top: 18px;
   margin-bottom: 17px;
-  color: #fff;
+  color: #747070;
   text-align: center;
 }
 
@@ -79,6 +93,8 @@
   margin-top: 100px;
   margin-right: 200px;
   margin-left: 200px;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .planningheader {
@@ -132,6 +148,8 @@
 
 .centeredtextblock {
   margin: 61px 81px 56px;
+  font-size: 17px;
+  line-height: 23px;
 }
 
 .pinaimage {
@@ -171,7 +189,7 @@
 
 .payingheader {
   width: 100%;
-  height: 545px;
+  height: auto;
   background-image: url('../images/PayingHeaderImageLarge.jpeg');
   background-position: 50% 50%;
   background-size: 100%;
@@ -240,6 +258,8 @@
   right: 0px;
   bottom: 0px;
   margin-top: 0px;
+  font-size: 17px;
+  line-height: 23px;
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
@@ -251,13 +271,66 @@
   padding-top: 0px;
 }
 
+.photocaption {
+  position: static;
+  display: block;
+  width: 200px;
+  margin-bottom: 6px;
+  margin-left: 11px;
+  padding-top: 0px;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  color: #fff;
+  font-size: 12px;
+}
+
+.photocaption.planningspace {
+  margin-top: 290px;
+}
+
+.photocaption.budgetcaption {
+  margin-top: 185px;
+  margin-bottom: 22px;
+  padding-bottom: 7px;
+}
+
+.photocaption.packingcaption {
+  margin-top: 226px;
+  margin-bottom: 2px;
+  color: #696464;
+}
+
+.planningcaption {
+  direction: ltr;
+}
+
+.col1 {
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+}
+
+.sampletext {
+  font-size: 17px;
+  line-height: 23px;
+}
+
+._17font {
+  font-size: 17px;
+  line-height: 23px;
+}
+
 @media (max-width: 991px) {
   .headersection {
     left: 0px;
-    top: 0px;
+    top: 1px;
     right: 0px;
+    bottom: 1px;
     width: auto;
-    height: 102%;
+    height: 634px;
     background-size: auto;
   }
   .headerdiv {
@@ -274,6 +347,10 @@
     margin-right: 100px;
     margin-left: 100px;
   }
+  .planningheader {
+    margin-bottom: 21px;
+    padding-bottom: 0px;
+  }
   .planningcontainer {
     padding: 0px;
   }
@@ -286,6 +363,7 @@
     margin-bottom: 119px;
   }
   .payingheader {
+    margin-top: 29px;
     background-size: auto 100%;
   }
   .packingsection {
@@ -297,6 +375,9 @@
 }
 
 @media (max-width: 767px) {
+  .headersection {
+    background-position: 50% 50%;
+  }
   .headercontainer {
     max-height: auto;
   }
@@ -318,9 +399,14 @@
 @media (max-width: 479px) {
   .headersection {
     height: 666px;
+    background-position: 50% 50%;
+    background-size: auto 100%;
   }
   .headerdiv {
     margin-top: 6px;
+  }
+  .headercontainer {
+    height: 546px;
   }
   .titleclass {
     margin-top: 11px;
@@ -388,7 +474,7 @@
     padding-left: 0px;
   }
   .textblockplanning {
-	margin-top: 4px;
+    margin-top: -19px;
   }
   .iconimages {
     margin-left: 3px;
